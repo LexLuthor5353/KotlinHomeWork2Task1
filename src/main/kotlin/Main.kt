@@ -19,7 +19,7 @@ fun main() {
         (seconds > 60 * 60 && seconds < 24 * 60 * 60 && minInHours == 0) -> {println("«был(а) $hours часов назад»")}
 
         (seconds > 24 * 60 * 60 && seconds < 48 * 60 * 60) -> {println("«был(а) вчера»")}
-        (seconds > 48 * 60 * 60 && seconds < 72 * 60 * 60) -> {println("«был(а) позавчера»")}
+        (seconds > 48 * 60 * 60 && seconds < 72 * 60 * 60) -> {println("«был(а) позавчера»" )}
         else -> {println("«был(а) давно»")}
     }
 
